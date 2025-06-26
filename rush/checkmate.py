@@ -38,5 +38,4 @@ def is_in_check(board_str):
                     print("Success")
                     return
                 break
-
     print("Fail")
