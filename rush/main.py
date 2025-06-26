@@ -1,8 +1,9 @@
+from checkmate import is_in_check
 def main():
     board = """\
-R...
+....
 .K..
-..P.
+....
 ...."""
     is_in_check(board)
 
