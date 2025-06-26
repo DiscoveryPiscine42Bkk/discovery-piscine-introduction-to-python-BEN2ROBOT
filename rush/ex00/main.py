@@ -3,9 +3,9 @@ def main():
     board = """\
 ....
 .K..
-....
+..P.
 ...."""
     is_in_check(board)
 
-if name == "main":
+if __name__ == "__main__":
     main()
